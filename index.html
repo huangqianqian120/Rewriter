@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI编辑室</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI编辑室</h1>
+            <p>输入新闻热词一键生成文章</p>
+        </header>
+        <main>
+            <div class="input-section">
+                <input type="text" id="keywordInput" placeholder="输入新闻热词">
+                <button id="generateButton">一键生成文章</button>
+            </div>
+            <div class="result-section">
+                <article class="article-container">
+                    <h2 id="resultTitle" class="article-title"></h2>
+                    <div id="resultContent" class="article-content"></div>
+                </article>
+                <button id="copyButton">复制结果</button>
+            </div>
+        </main>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html> 
